@@ -1,0 +1,14 @@
+{
+  "name": "my-web-html-project",
+  "version": "1.0.0",
+  "description": "A simple web application using Node.js and Three.js for 3D graphics.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

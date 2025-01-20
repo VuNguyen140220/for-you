@@ -1,0 +1,64 @@
+html, body, canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: fixed;
+  background: black;
+  font-family: 'Amatic SC', cursive;
+
+}
+#star-button{
+  /* opacity: 0;
+  transition: opacity 2s; */
+  position: absolute;
+  color: #84929c;
+  margin: unset;
+  border: unset;
+  padding: unset;
+  font-family: "Amatic SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+  font-size: 3rem;
+  top: 20%; left: 50%; transform: translate(-50%, -50%);
+  /* display: none; */
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+#star-button.show {
+  display: block;
+  opacity: 2;
+}
+
+#amatic-sc-regular {
+  font-family: "Amatic SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#message {
+  font-size: 30px;
+  color: red;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+#message.show {
+  opacity: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+#icon-container{
+  font-family: "Amatic SC", serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
